@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSC Typing Test Simulator</title>
+  <link rel="stylesheet" href="typing.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="typing-box">
+      <h2>SSC Typing Test Simulator</h2>
+      <div class="timer" id="timer">10:00</div>
+      <div id="instructions">Type the below passage accurately within 10 minutes.</div>
+      <div id="passage">
+        <p>
+          The Constitution of India is the supreme law of the land. It lays down the framework demarcating fundamental political code, structure, procedures, powers and duties of government institutions and sets out fundamental rights, directive principles and the duties of citizens.
+        </p>
+      </div>
+      <textarea id="textInput" placeholder="Start typing here..." disabled></textarea>
+      <div class="controls">
+        <button id="startBtn">Start Test</button>
+        <button id="submitBtn" disabled>Submit</button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="typing.js"></script>
+</body>
+</html>
+
